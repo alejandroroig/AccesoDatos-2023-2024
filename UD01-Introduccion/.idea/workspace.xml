@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d412a04c-c3a5-4108-a824-56e64b9fbfe5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../UD02-Ficheros/01-ManejoFicheros/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD02-Ficheros/01-ManejoFicheros/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD02-Ficheros/01-ManejoFicheros/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD02-Ficheros/01-ManejoFicheros/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD02-Ficheros/01-ManejoFicheros/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD02-Ficheros/01-ManejoFicheros/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD02-Ficheros/01-ManejoFicheros/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD02-Ficheros/01-ManejoFicheros/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD02-Ficheros/01-ManejoFicheros/ficheroBytes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD02-Ficheros/01-ManejoFicheros/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD02-Ficheros/01-ManejoFicheros/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD02-Ficheros/01-ManejoFicheros/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD02-Ficheros/01-ManejoFicheros/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD02-Ficheros/01-ManejoFicheros/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD02-Ficheros/01-ManejoFicheros/src/main/java/org/ficheros/OperacionesPath.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD02-Ficheros/01-ManejoFicheros/src/main/java/org/ficheros/OrientadoBytes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD02-Ficheros/01-ManejoFicheros/src/main/java/org/ficheros/OrientadoCaracteres.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD02-Ficheros/01-ManejoFicheros/src/main/java/org/ficheros/SerializacionObjetos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD02-Ficheros/01-ManejoFicheros/src/main/java/org/ficheros/TratamientoCSV.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD02-Ficheros/01-ManejoFicheros/src/main/resources/funkos.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD02-Ficheros/2.1 - Manejo de ficheros.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD02-Ficheros/2.2 - Gestión de excepciones.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD02-Ficheros/2.3 - Ficheros de intercambio.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD02-Ficheros/Ejercicios/Ejercicio 1 - Operaciones con ficheros.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD02-Ficheros/Ejercicios/Ejercicio 2 - Lectura de CSV y serialización.pdf" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2WsWexiuW4D1eBXtDr8c9nlcYLN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Alejandro/IdeaProjects/ies/dam/AccesoDatos-2023-2024/UD01-Introduccion&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d412a04c-c3a5-4108-a824-56e64b9fbfe5" name="Changes" comment="" />
+      <created>1697521867645</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1697521867645</updated>
+      <workItem from="1697521868638" duration="26000" />
+      <workItem from="1697521924297" duration="60000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

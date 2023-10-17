@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lenguajes>
+    <lenguaje nombre="Java">
+        <compilado>false</compilado>
+        <programadores>
+            <programador>Juan</programador>
+            <programador>Jorge</programador>
+        </programadores>
+        <sueldo>100</sueldo>
+    </lenguaje>
+    <lenguaje nombre="Python">
+        <compilado>false</compilado>
+        <programadores>
+            <programador>Ana</programador>
+        </programadores>
+        <sueldo>150</sueldo>
+    </lenguaje>
+    <lenguaje nombre="JS">
+        <compilado>false</compilado>
+        <programadores>
+            <programador>Inés</programador>
+            <programador>Ignacio</programador>
+        </programadores>
+        <sueldo>120</sueldo>
+    </lenguaje>
+    <lenguaje nombre="Rust">
+        <compilado>true</compilado>
+        <programadores>
+            <programador>David</programador>
+            <programador>Daniel</programador>
+            <programador>Dafne</programador>
+        </programadores>
+        <sueldo>90</sueldo>
+    </lenguaje>
+</lenguajes>

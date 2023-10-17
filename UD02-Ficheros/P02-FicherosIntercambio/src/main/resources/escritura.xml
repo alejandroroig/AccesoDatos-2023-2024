@@ -1,0 +1,19 @@
+<lenguajes>
+  <lenguaje nombre="Solidity">
+    <sueldo>180</sueldo>
+    <compilado>false</compilado>
+    <programadores>
+      <programador>María</programador>
+      <programador>Sonia</programador>
+      <programador>José Miguel</programador>
+    </programadores>
+  </lenguaje>
+  <lenguaje nombre="Vyper">
+    <sueldo>160</sueldo>
+    <compilado>false</compilado>
+    <programadores>
+      <programador>Pepe</programador>
+      <programador>Julián</programador>
+    </programadores>
+  </lenguaje>
+</lenguajes>

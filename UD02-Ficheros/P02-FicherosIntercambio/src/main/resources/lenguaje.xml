@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lenguaje nombre="Java">
+    <compilado>false</compilado>
+    <programadores>
+        <programador>Juan</programador>
+        <programador>Jorge</programador>
+    </programadores>
+    <sueldo>100</sueldo>
+</lenguaje>

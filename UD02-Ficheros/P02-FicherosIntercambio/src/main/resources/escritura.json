@@ -1,0 +1,11 @@
+[ {
+  "nombre" : "Solidity",
+  "sueldo" : 180,
+  "compilado" : false,
+  "programadores" : [ "María", "Sonia", "José Miguel" ]
+}, {
+  "nombre" : "Vyper",
+  "sueldo" : 160,
+  "compilado" : false,
+  "programadores" : [ "Pepe", "Julián" ]
+} ]
