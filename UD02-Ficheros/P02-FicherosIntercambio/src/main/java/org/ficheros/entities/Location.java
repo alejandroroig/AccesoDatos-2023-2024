@@ -33,6 +33,8 @@ public class Location {
         this.type = type;
     }
 
+
+
     public void setResidents(List<String> residents) {
         this.residents = residents;
     }
