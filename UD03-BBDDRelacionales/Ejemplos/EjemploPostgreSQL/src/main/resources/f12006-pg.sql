@@ -1,3 +1,5 @@
+DROP TABLE IF EXISTS circuits, constructors, drivers, races, results;
+
 CREATE TABLE circuits (
     circuitid SERIAL PRIMARY KEY,
     circuitref VARCHAR (50) UNIQUE NOT NULL,
@@ -540,6 +542,12 @@ INSERT INTO results (resultid, raceid, driverid, grid, position, points) VALUES
 (1136, 70, 23, 7, NULL, 0),
 (1137, 70, 17, 11, NULL, 0),
 (1138, 70, 3, 13, NULL, 0);
+
+SELECT setval(pg_get_serial_sequence('constructors', 'constructorid'), coalesce(max(constructorid)+1, 1), false) FROM constructors;
+SELECT setval(pg_get_serial_sequence('drivers', 'driverid'), coalesce(max(driverid)+1, 1), false) FROM drivers;
+SELECT setval(pg_get_serial_sequence('circuits', 'circuitid'), coalesce(max(circuitid)+1, 1), false) FROM circuits;
+SELECT setval(pg_get_serial_sequence('races', 'raceid'), coalesce(max(raceid)+1, 1), false) FROM races;
+SELECT setval(pg_get_serial_sequence('results', 'resultid'), coalesce(max(resultid)+1, 1), false) FROM results;
 
 CREATE OR REPLACE FUNCTION get_results_by_driver(driver_code VARCHAR)
 RETURNS TABLE (
