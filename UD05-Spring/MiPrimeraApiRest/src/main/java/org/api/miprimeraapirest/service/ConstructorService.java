@@ -1,7 +1,6 @@
 package org.api.miprimeraapirest.service;
 
-import org.api.miprimeraapirest.model.Constructor;
-import org.api.miprimeraapirest.model.Driver;
+import org.api.miprimeraapirest.entity.Constructor;
 
 import java.util.List;
 import java.util.Optional;

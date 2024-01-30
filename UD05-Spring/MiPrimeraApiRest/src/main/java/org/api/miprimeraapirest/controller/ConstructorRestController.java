@@ -1,6 +1,6 @@
 package org.api.miprimeraapirest.controller;
 
-import org.api.miprimeraapirest.model.Constructor;
+import org.api.miprimeraapirest.entity.Constructor;
 import org.api.miprimeraapirest.service.ConstructorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

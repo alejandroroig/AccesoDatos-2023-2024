@@ -1,6 +1,7 @@
 package org.api.miprimeraapirest.controller;
 
-import org.api.miprimeraapirest.model.Driver;
+import org.api.miprimeraapirest.dto.DriverDTO;
+import org.api.miprimeraapirest.entity.Driver;
 import org.api.miprimeraapirest.service.DriverService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -27,7 +28,7 @@ public class DriverRestController {
     GET http://localhost:8080/api/drivers/alo
      */
     @GetMapping("/{code}")
-    public ResponseEntity<Driver> getByCode(@PathVariable String code) {
+    public ResponseEntity<DriverDTO> getByCode(@PathVariable String code) {
         return this.driverService.getDriverByCode(code)
                 .map(ResponseEntity::ok)
                 .orElse(ResponseEntity.notFound().build());

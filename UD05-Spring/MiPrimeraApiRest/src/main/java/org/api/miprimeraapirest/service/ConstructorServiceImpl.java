@@ -1,6 +1,6 @@
 package org.api.miprimeraapirest.service;
 
-import org.api.miprimeraapirest.model.Constructor;
+import org.api.miprimeraapirest.entity.Constructor;
 import org.api.miprimeraapirest.repository.ConstructorRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

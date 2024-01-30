@@ -1,7 +1,6 @@
 package org.api.miprimeraapirest.repository;
 
-import org.api.miprimeraapirest.model.Constructor;
-import org.api.miprimeraapirest.model.Driver;
+import org.api.miprimeraapirest.entity.Constructor;
 import org.springframework.stereotype.Repository;
 import org.springframework.data.jpa.repository.JpaRepository;
 
