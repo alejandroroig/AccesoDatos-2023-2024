@@ -1,6 +1,7 @@
 package org.api.miprimeraapirest.controller;
 
 import org.api.miprimeraapirest.entity.Constructor;
+import org.api.miprimeraapirest.projection.ConstructorDetails;
 import org.api.miprimeraapirest.service.ConstructorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -19,7 +20,7 @@ public class ConstructorRestController {
     }
 
     @GetMapping("")
-    public ResponseEntity<List<Constructor>> getAll() {
+    public ResponseEntity<List<ConstructorDetails>> getAll() {
         return ResponseEntity.ok(constructorService.getAllConstructors());
     }
 
@@ -27,7 +28,7 @@ public class ConstructorRestController {
     GET http://localhost:8080/api/constructors/mclaren
      */
     @GetMapping("/{ref}")
-    public ResponseEntity<Constructor> getByRef(@PathVariable String ref) {
+    public ResponseEntity<ConstructorDetails> getByRef(@PathVariable String ref) {
         return this.constructorService.getConstructorByRef(ref)
                 .map(ResponseEntity::ok)
                 .orElse(ResponseEntity.notFound().build());

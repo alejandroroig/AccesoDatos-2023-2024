@@ -3,6 +3,9 @@ package org.api.miprimeraapirest.entity;
 import jakarta.persistence.*;
 import lombok.Data;
 
+import java.util.List;
+import java.util.Set;
+
 @Entity
 @Data
 @Table(name = "constructors")
@@ -19,7 +22,6 @@ public class Constructor {
     private String nationality;
     private String url;
 
-    // @OneToMany(mappedBy = "constructor")
-    // @JsonIgnoreProperties("constructor")
-    // private Set<Driver> drivers;
+    @OneToMany(mappedBy = "constructor")
+    private List<Driver> drivers;
 }

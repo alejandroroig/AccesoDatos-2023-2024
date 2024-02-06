@@ -1,10 +1,16 @@
 package org.api.miprimeraapirest.service;
 
-import org.api.miprimeraapirest.dto.DriverDTO;
+import org.api.miprimeraapirest.projection.DriverDetails;
+import org.api.miprimeraapirest.projection.DriverDetailsDTO;
+import org.api.miprimeraapirest.dto.DriverListDetailsDTO;
 import org.api.miprimeraapirest.entity.Driver;
 import org.api.miprimeraapirest.mapper.DriverDTOMapper;
 import org.api.miprimeraapirest.repository.DriverRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -22,15 +28,20 @@ public class DriverServiceImpl implements DriverService {
     }
 
     @Override
-    public List<Driver> getAllDrivers() {
-
-        return driverRepository.findAll();
+    public List<DriverListDetailsDTO> getAllDrivers() {
+        return driverRepository.findAll().stream().map(driverDTOMapper).toList();
     }
 
     @Override
-    public Optional<DriverDTO> getDriverByCode(String code) {
-        return driverRepository.findByCodeIgnoreCase(code)
-                .map(driverDTOMapper);
+    public Page<DriverDetails> getAllDriversPaged(int pageNo, int pageSize, String sortBy, String sortDirection) {
+        Sort sort = Sort.by(Sort.Direction.fromString(sortDirection), sortBy);
+        Pageable pageable = PageRequest.of(pageNo, pageSize, sort);
+        return driverRepository.findAllProjectedBy(pageable);
+    }
+
+    @Override
+    public Optional<DriverDetailsDTO> getDriverByCode(String code) {
+        return driverRepository.findByCodeIgnoreCase(code);
     }
 
     @Override

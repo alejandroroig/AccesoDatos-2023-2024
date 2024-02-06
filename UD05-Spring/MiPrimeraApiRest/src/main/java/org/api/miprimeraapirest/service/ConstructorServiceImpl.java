@@ -1,6 +1,7 @@
 package org.api.miprimeraapirest.service;
 
 import org.api.miprimeraapirest.entity.Constructor;
+import org.api.miprimeraapirest.projection.ConstructorDetails;
 import org.api.miprimeraapirest.repository.ConstructorRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -18,12 +19,12 @@ public class ConstructorServiceImpl implements ConstructorService {
     }
 
     @Override
-    public List<Constructor> getAllConstructors() {
-        return repository.findAll();
+    public List<ConstructorDetails> getAllConstructors() {
+        return repository.findAllProjectedBy();
     }
 
     @Override
-    public Optional<Constructor> getConstructorByRef(String ref) {
+    public Optional<ConstructorDetails> getConstructorByRef(String ref) {
         return repository.findByRefIgnoreCase(ref);
     }
 
